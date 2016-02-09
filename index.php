@@ -7,7 +7,6 @@
 
 <h1>Icono del Dia</h1>
 <?php
-<header name="Arr-Disable-Session-Affinity" value="true"></header>
 $instancia=$_SERVER["WEBSITE_INSTANCE_ID"];
 echo('Id estancia : '.$instancia);
 ?>
