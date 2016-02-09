@@ -8,8 +8,9 @@
 <h1>Icono del Dia</h1>
 <?php
 $instancia=$_SERVER["WEBSITE_INSTANCE_ID"];
-echo($instancia);
+echo('Id estancia:'.$instancia);
 ?>
+<br>
 <img src="randomicon.php"/>
 
 </body>
